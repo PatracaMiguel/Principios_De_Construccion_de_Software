@@ -1,7 +1,7 @@
 package seleccion;
 
  /**
- * Este método sigue la convención de nombrado de Google Java Style Guide (sección 4.8.7),
+ * Esta clase sigue la convención de nombrado de Google Java Style Guide (sección 4.8.7),
  * que indica que los modificadores de clase y miembro, cuando están presentes,
  *  aparecen en el orden recomendado por la especificación del lenguaje Java.
  */

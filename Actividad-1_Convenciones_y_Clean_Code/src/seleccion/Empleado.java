@@ -1,5 +1,8 @@
 package seleccion;
-
+/**
+ * Esta clase sigue la convención de nombrado de Google Java Style Guide (sección 3.4.2),
+ * que indica que Los miembros de una clase deben estar ordenados de manera lógica y consistente
+ */
 public abstract class Empleado {
     private int id;
     private String nombre;

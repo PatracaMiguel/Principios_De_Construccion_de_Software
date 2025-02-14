@@ -1,5 +1,10 @@
 import seleccion.*;
 
+  /**
+     * Este método sigue la convención de nombrado de Google Java Style Guide (sección 5.2.2),
+     * que recomienda usar camelCase para nombres de métodos.
+     */
+
 public class App {
     public static void main(String[] args) throws Exception {
         

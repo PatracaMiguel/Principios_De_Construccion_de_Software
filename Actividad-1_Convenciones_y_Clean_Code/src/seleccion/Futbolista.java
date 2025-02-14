@@ -1,8 +1,10 @@
 package seleccion;
 
 /**
- * Esta clase sigue la convención de nombrado de Google Java Style Guide (sección 3.4.2),
- * que indica que Los miembros de una clase deben estar ordenados de manera lógica y consistente
+ * Esta clase sigue la convención de nombrado de Google Java Style Guide (sección 4.8.6.1),
+ * que indica que Los comentarios de bloque se aplican sangría en el mismo nivel que el código circundante.
+ * Pueden ser de estilo o de estilo. En el caso de los comentarios de varias líneas,
+ * las líneas siguientes deben comenzar con alineado con el de la línea anterior.
  */
 public class Futbolista extends Empleado {
     private int numeroJugador;
