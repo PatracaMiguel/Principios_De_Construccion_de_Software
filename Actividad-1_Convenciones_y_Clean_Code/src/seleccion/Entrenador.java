@@ -1,5 +1,8 @@
 package seleccion;
-
+ /**
+ * Esta clase sigue la convención de nombrado de Google Java Style Guide (sección 5.2.2),
+ * que recomienda usar camelCase para nombres de clases, métodos y atributos.
+ */
 public class Entrenador  extends Empleado{
     private int idFederacion;
 
@@ -17,7 +20,7 @@ public class Entrenador  extends Empleado{
     public void viajar() {
         System.out.println("El entrenador " + getNombre() + " está viajando");
     }
-
+  
     public void dirigirPartido(){
         System.out.println( "El entrenador " + getNombre() + " está dirigiendo el partido");
     }

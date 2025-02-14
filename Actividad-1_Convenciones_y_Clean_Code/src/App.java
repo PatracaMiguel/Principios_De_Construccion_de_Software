@@ -3,6 +3,10 @@ import seleccion.*;
 public class App {
     public static void main(String[] args) throws Exception {
         
+        /**
+         * Este método sigue la convención de nombrado de Google Java Style Guide (sección 4.4),
+         * que indica El número máximo de líneas de código en una clase es de 100 líneas.
+         */
         Entrenador entrenador = new Entrenador(1, "Abraham", "Barrera", 23, 1);
         entrenador.concentrase();
         entrenador.dirigirPartido();
