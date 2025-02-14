@@ -21,11 +21,11 @@ public class Futbolista extends Empleado {
     }
 
     public void jugarPartido(){
-        System.out.println( getNombre() + "Esta jugando en el partido");
+        System.out.println( getNombre() + " esta jugando en el partido");
     }
 
     public void entrenar(){
-        System.out.println( getNombre() + "Está entrenando");
+        System.out.println( getNombre() + " está entrenando");
     }
 
     public int getNumeroJugador() {
