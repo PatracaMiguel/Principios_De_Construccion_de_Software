@@ -11,8 +11,9 @@ public class App  implements fizzBuzz {
             }
     }
             
-            
+    
 public static void numerosFizzBuzz (int numeroIterado) {
+
     if (numeroIterado % 3 == 0 && numeroIterado % 5 == 0) {
         System.out.print(  " FizzBuzz");
     }
@@ -25,7 +26,6 @@ public static void numerosFizzBuzz (int numeroIterado) {
                 System.out.print( " Buzz");
             }
         }
-
     }
 }
 }
