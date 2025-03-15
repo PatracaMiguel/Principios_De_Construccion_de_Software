@@ -1,6 +1,4 @@
 public interface fizzBuzz {
-    public static void numerosFizzBuzz (int numeroIterado) {
-
-    }
+    void print (int from , int to);
 
 }
