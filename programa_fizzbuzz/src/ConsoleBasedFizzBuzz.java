@@ -1,16 +1,15 @@
-public class ConsoleBasedFizzBuzz implements fizzBuzz {
+public class ConsoleBasedFizzBuzz extends ImprimirNombres implements fizzBuzz {
+
+    
     @Override
-    public void print (int from , int to) {
-        for (int i = from ; i <= to ; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
-                System.out.println("FizzBuzz");
-            } else if (i % 3 == 0) {
-                System.out.println("Fizz");
-            } else if (i % 5 == 0) {
-                System.out.println("Buzz");
-            } else {
-                System.out.println(i);
-            }
+    public void imprimirNumeros (int from , int to) {
+        for (int i = from; i <= to; i++) {
+            ImprimirNombres imprimirNombre = new ImprimirNombres();
+            imprimirNombre.imprimirNombre(i);
         }
     }
+
+ 
+
+
 }

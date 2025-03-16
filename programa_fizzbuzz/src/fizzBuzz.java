@@ -1,4 +1,10 @@
 public interface fizzBuzz {
-    void print (int from , int to);
+    /**
+     * Refactorización  
+     * Simplificación de llamadas de métodos
+     * Método de cambio de nombre
+     */
+     void imprimirNumeros (int from , int to);
 
+     
 }
